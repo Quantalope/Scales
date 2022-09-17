@@ -27,38 +27,4 @@ void scale(int x, int y)
   curveVertex(x-40,y+50);
   endShape();
 }
-void fish()
-{
-  fill(0,100,155);
-  stroke(#F8E15E);
-  beginShape();
-  vertex(0,0);
-  vertex(1000,0);
-  vertex(1000,1000);
-  vertex(0,1000);
-  beginContour();
-  curveVertex(148,347);
-  curveVertex(186,354);
-  curveVertex(224,376);
-  curveVertex(188,396);
-  curveVertex(450,450);
-  curveVertex(701,400);
-  curveVertex(812,422);
-  curveVertex(820,349);
-  curveVertex(719,363);
-  curveVertex(658,351);
-  curveVertex(656,326);
-  curveVertex(589,328);
-  curveVertex(533,249);
-  vertex(533,249);
-  curveVertex(533,300);
-  curveVertex(500,300);
-  curveVertex(384,310);
-  curveVertex(186,354);
-  curveVertex(145,382);
-  endContour();
-  endShape(CLOSE);
-  strokeWeight(20);
-  point(250,350);
-  strokeWeight(1);
-}
+
