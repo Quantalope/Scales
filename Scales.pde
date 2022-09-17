@@ -7,7 +7,6 @@ void draw()
   for(int x = 1000; x>-100; x-=(int)(Math.random()*20)+30)
     for(int y = 1000; y>-100; y-=(int)(Math.random()*20)+40)
       scale(x,y);
-  fish();
 }
 void scale(int x, int y)
 {
