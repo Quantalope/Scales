@@ -1,7 +1,7 @@
 void setup()
 {
   size(1000,1000);
-  if (frameCount % 10 == 0) {
+  if (frameCount % 60 == 0) {
   println(frameRate);
 }
 }
