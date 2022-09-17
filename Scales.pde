@@ -1,8 +1,7 @@
 void setup()
 {
   size(1000,1000);
-  if (frameCount % 60 == 0) {
-  println(frameRate);
+  frameRate(2);
 }
 }
 void draw()
